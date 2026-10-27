@@ -1,0 +1,102 @@
+{
+  "gerado_em": "2026-10-26T22:17:14",
+  "dataset": {
+    "arquivo": "C:\\Users\\labsfiap\\Downloads\\CP1-iot-main\\CP1-iot-main\\dados_treino.csv",
+    "amostras": 44,
+    "por_classe": {
+      "boa": 24,
+      "fadiga": 20
+    },
+    "sha256": "b33629ce8d86ee7d"
+  },
+  "modelo_escolhido": "random_forest",
+  "candidatos": {
+    "random_forest": {
+      "loo_accuracy": 0.9773,
+      "skf_mean": 0.9333,
+      "skf_std": 0.0889,
+      "skf_splits": 5,
+      "matriz_confusao": [
+        [
+          23,
+          1
+        ],
+        [
+          0,
+          20
+        ]
+      ]
+    },
+    "logistic_regression": {
+      "loo_accuracy": 0.9545,
+      "skf_mean": 0.9556,
+      "skf_std": 0.0889,
+      "skf_splits": 5,
+      "matriz_confusao": [
+        [
+          22,
+          2
+        ],
+        [
+          0,
+          20
+        ]
+      ]
+    }
+  },
+  "loo_accuracy": 0.9773,
+  "skf_mean": 0.9333,
+  "skf_std": 0.0889,
+  "matriz_confusao": {
+    "labels": [
+      "boa",
+      "fadiga"
+    ],
+    "matriz": [
+      [
+        23,
+        1
+      ],
+      [
+        0,
+        20
+      ]
+    ]
+  },
+  "n_amostras": 44,
+  "features": [
+    "angulo_min",
+    "angulo_max",
+    "amplitude",
+    "duracao_s",
+    "duracao_concentrica_s",
+    "vel_media",
+    "vel_max",
+    "vel_std",
+    "tempo_no_pico_s",
+    "inclinacao_tronco_media",
+    "inclinacao_tronco_std",
+    "abducao_ombro_media",
+    "deriva_cotovelo",
+    "confianca_media",
+    "intervalo_anterior_s"
+  ],
+  "importancias": {
+    "angulo_min": 0.0172,
+    "angulo_max": 0.0082,
+    "amplitude": 0.0118,
+    "duracao_s": 0.1793,
+    "duracao_concentrica_s": 0.0723,
+    "vel_media": 0.1732,
+    "vel_max": 0.0162,
+    "vel_std": 0.0233,
+    "tempo_no_pico_s": 0.1839,
+    "inclinacao_tronco_media": 0.0251,
+    "inclinacao_tronco_std": 0.0233,
+    "abducao_ombro_media": 0.061,
+    "deriva_cotovelo": 0.1084,
+    "confianca_media": 0.041,
+    "intervalo_anterior_s": 0.0561
+  },
+  "observacao": "Dataset pequeno (10+10). A acuracia LOO e uma estimativa otimista-pessimista com alta variancia; use como referencia, nao como garantia."
+}
