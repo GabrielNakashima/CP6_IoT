@@ -18,21 +18,6 @@ Vinícius Vilas Boas RM557843<br>
 
 ---
 
-## Vídeo demonstrativo (CP6)
-
-> **https://youtube.com/shorts/orMU3uC02u0?si=p4dXUH4WKOjTsDPt**
->
-> *(substituir pelo link do vídeo do CP6 mostrando a classificação BOA/RUIM e o dashboard)*
-
-O vídeo deve mostrar, em sequência:
-
-1. leitura do cartão RFID liberando o aluno;
-2. execução de repetições **boas** (classificadas em verde);
-3. execução de repetições **com fadiga** (classificadas em vermelho);
-4. abertura do dashboard com o **Score de Eficiência** final.
-
----
-
 ## O que mudou em relação ao CP5
 
 | CP5 | CP6 (IoB) |
